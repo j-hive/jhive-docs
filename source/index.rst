@@ -10,6 +10,7 @@ Welcome to J-HIVE's documentation!
    :maxdepth: 2
    :caption: Contents:
 
+   morphfits/index.rst
    notebooks/temp.ipynb 
 
 Indices and tables

@@ -1,3 +1,9 @@
 {
-    "esbonio.sphinx.confDir": ""
+    "esbonio.sphinx.confDir": "",
+    "workbench.colorCustomizations": {
+        "activityBar.background": "#133326",
+        "titleBar.activeBackground": "#1A4836",
+        "titleBar.activeForeground": "#F6FBF9"
+    },
+    "makefile.configureOnOpen": false
 }

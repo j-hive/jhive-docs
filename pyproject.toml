@@ -19,7 +19,8 @@ myst-nb = "^1.0.0"
 jupyter = "^1.0.0"
 matplotlib = "^3.8.3"
 numpy = "^1.26.4"
-
+morphfits = { git = "https://github.com/j-hive/morphfits.git", develop = true }
+sphinx-autoapi = "^3.2.1"
 
 [build-system]
 requires = ["poetry-core"]

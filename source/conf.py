@@ -3,6 +3,8 @@
 # For the full list of built-in configuration values, see the documentation:
 # https://www.sphinx-doc.org/en/master/usage/configuration.html
 
+import morphfits
+
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
@@ -15,8 +17,9 @@ author = "The J-HIVE Collaboration"
 
 extensions = [
     "sphinx.ext.napoleon",
-    "sphinx.ext.autodoc",
-    "sphinx.ext.autosummary",
+    # "sphinx.ext.autodoc",
+    # "sphinx.ext.autosummary",
+    "autoapi.extension",
     "sphinx_design",
     "sphinx_autodoc_typehints",
     "myst_nb",
@@ -28,6 +31,8 @@ exclude_patterns = []
 # Autodoc extension parameters
 autodoc_typehints = "signature"
 autodoc_typehints_format = "short"
+
+autoapi_dirs = [*morphfits.__path__]
 
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
