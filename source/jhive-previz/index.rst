@@ -6,6 +6,6 @@ J-HIVE Pre-Visualization
     :includehidden:
     :caption: Contents:
 
-    config <config>
-    datastandards <datastandards>
-    
+    Config <config>
+    Output data schema <dataschema>
+    Data Standards <datastandards>
