@@ -16,7 +16,7 @@ sphinxcontrib-napoleon = "^0.7"
 pydata-sphinx-theme = "^0.15.2"
 sphinx-autodoc-typehints = "^2.0.0"
 myst-nb = "^1.0.0"
-jhive_previz = { git = "git@github.com:j-hive/jhive-previz.git", rev = "ee3c721", develop = true}
+jhive_previz = { git = "https://github.com/j-hive/jhive-previz.git", rev = "ee3c721", develop = true}
 jupyter = "^1.0.0"
 matplotlib = "^3.8.3"
 numpy = "^1.26.4"
