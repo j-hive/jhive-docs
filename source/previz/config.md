@@ -1,5 +1,5 @@
 ```{eval-rst}
-.. _jhive-previz:
+.. _previz:
 ```
 
 ## Configuration Files

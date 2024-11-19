@@ -4,6 +4,11 @@
 # https://www.sphinx-doc.org/en/master/usage/configuration.html
 
 import morphfits
+import jhive_previz
+from importlib import resources as impresources
+from jhive_previz import docsutil
+
+# from . import previz
 
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
@@ -45,3 +50,11 @@ html_theme_options = {
 }
 
 html_static_path = ["_static"]
+
+# Scripts
+
+# convert jhive previz parameter csvs to markdown tables
+print("Converting jhive_previz parameter tables to markdown files.")
+files_to_convert = ["dja_catalogue_fields_table.csv", "db_catalogue_fields_table.csv"]
+path_to_files = "./previz/tables/"
+docsutil.convert_tables_to_markdown(files_to_convert, path_to_files)

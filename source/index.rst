@@ -12,7 +12,7 @@ Welcome to J-HIVE's documentation!
 
    morphfits/index.rst
    notebooks/temp.ipynb 
-   jhive-previz/index.rst
+   previz/index.rst
 
 Indices and tables
 ==================
