@@ -55,6 +55,10 @@ html_static_path = ["_static"]
 
 # convert jhive previz parameter csvs to markdown tables
 print("Converting jhive_previz parameter tables to markdown files.")
-files_to_convert = ["dja_catalogue_fields_table.csv", "db_catalogue_fields_table.csv"]
+files_to_convert = [
+    "dja_catalogue_fields_table.csv",
+    "db_catalogue_fields_table.csv",
+    "mf_catalogue_fields_table.csv",
+]
 path_to_files = "./previz/tables/"
 docsutil.convert_tables_to_markdown(files_to_convert, path_to_files)

@@ -1,160 +1,57 @@
+```{eval-rst}
+.. _previz:
+```
 
 ## Filter availability 
+This table shows which filters from the DJA catalogue are available for each of the fields available for JHIVE.
 
+| Filter name | Instrument | Filter column name | abell2744 | ceers | gdn | gds | ngdeep |
+| ----------- | ---------- | ----------- | ------------ | ----- | --- | ---- | ----- |
+| F070W | NIRCam | f070w_corr_1 | &#10003; | &#10007; | &#10007; | &#10007; | &#10007;|
+| F090W | NIRCam |f090w_corr_1 | &#10003; | &#10007; | &#10003; | &#10003; | &#10007; |
+| F090WN | NIRISS |f090wn_corr_1 | &#10003; | &#10007; | &#10007; | &#10007; | &#10007; |
+| F105W | (HST) WFC3_IR |f105w_corr_1 | &#10003; | &#10003; | &#10003; | &#10003; | &#10003; |
+| F110W | (HST) WFC3_IR |f110w_corr_1 |  &#10007; | &#10007; | &#10007; | &#10003; | &#10007; |
+| F115W | NIRCAM |f115w_corr_1 | &#10003; | &#10003; | &#10003; | &#10003; | &#10003; |
+| F115WN | NIRISS |f115wn_corr_1 | &#10003; | &#10007; | &#10007; | &#10007; | &#10007; |
+| F125W | NIRCam |f125w_corr_1 | &#10003; | &#10003; | &#10003; | &#10003; | &#10003; |
+| F140M | NIRCam |f140m_corr_1 | &#10003; | &#10007; | &#10007; | &#10007; | &#10007; |
+| F140MN | NIRISS |f140mn_corr_1 | &#10003; | &#10007; | &#10007; | &#10007; | &#10007; |
+| F140W | NIRCam |f140w_corr_1 | &#10003; | &#10003; | &#10003; | &#10003; | &#10003; |
+| F150W | NIRCam |f150w_corr_1 | &#10003;| &#10003; | &#10003; | &#10003; | &#10003; |
+| F150WN | NIRISS |f150wn_corr_1 | &#10003; | &#10007; | &#10007; | &#10003; | &#10007; |
+| F158MN | NIRISS |f158mn_corr_1 | &#10003; | &#10007; | &#10007;| &#10007; | &#10007; |
+| F160W | NIRCam |f160w_corr_1 | &#10003; |&#10003; | &#10003; | &#10003; | &#10003; |
+| F162M | NIRCam |f162m_corr_1 | &#10003; | &#10007; | &#10007; | &#10003; | &#10007; |
+| F182M | NIRCam |f182m_corr_1 | &#10003; | &#10003; | &#10003; | &#10003; | &#10007; |
+| F200W | NIRCam |f200w_corr_1 | &#10003; | &#10003; | &#10003; | &#10003; | &#10003; |
+| F200WN | NIRISS |f200wn_corr_1 | &#10003; | &#10007; | &#10007; | &#10003; | &#10007; |
+| F210M | NIRCam |f210m_corr_1 | &#10003; | &#10003; | &#10003; | &#10003; | &#10007; |
+| F250M | NIRCam |f250m_corr_1 | &#10003; | &#10007; | &#10007; | &#10003; | &#10007; |
+| F277W | NIRCam |f277w_corr_1 | &#10003; | &#10003; | &#10003; | &#10003; | &#10003; |
+| F300M | NIRCam |f300m_corr_1 | &#10003; | &#10007; | &#10007; | &#10003; | &#10007; |
+| F335M | NIRCam |f335m_corr_1 | &#10003; | &#10007; | &#10003; | &#10003; | &#10007; |
+| F350LPU | (HST) WFC3_UVIS2 |f350lpu_corr_1 | &#10007; | &#10007; | &#10007; | &#10007; | &#10003; |
+| F356W | NIRCam |f356w_corr_1 | &#10003; | &#10003; | &#10003; | &#10003; | &#10003; |
+| F360M | NIRCam |f360m_corr_1 | &#10003; | &#10007; | &#10007; | &#10007; | &#10007; |
+| F410M | NIRCam |f410m_corr_1 | &#10003; | &#10003; | &#10003; | &#10003; | &#10007; |
+| F430M | NIRCam |f430m_corr_1 | &#10003; | &#10007; | &#10007; | &#10003; | &#10007; |
+| F435W | (HST) ACS_WFC |f435w_corr_1 | &#10003; | &#10003; | &#10003; | &#10003; | &#10003; |
+| F444W | NIRCam |f444w_corr_1 | &#10003; | &#10003; | &#10003; | &#10003; | &#10003; |
+| F460M | NIRCam |f460m_corr_1 | &#10003; | &#10007; | &#10007; | &#10003; | &#10007; |
+| F475W | (HST) ACS_WFC |f475w_corr_1 | &#10003;| &#10007; | &#10007; | &#10003; | &#10007; |
+| F480M | NIRCam |f480m_corr_1 | &#10003; | &#10007; | &#10007; | &#10003; | &#10007; |
+| F560W | MIRI |f560w_corr_1 | &#10007; | &#10003; | &#10007; | &#10003; | &#10007; |
+| F606W | (HST) ACS_WFC |f606w_corr_1 | &#10003; | &#10003; | &#10003; | &#10003; | &#10003; |
+| F606WU | (HST) WFC3_UVIS2 |f606wu_corr_1 | &#10007; | &#10007; | &#10007; | &#10007; | &#10007; |
+| F770W | MIRI |f770w_corr_1 | &#10007; | &#10003; | &#10003; | &#10003; | &#10007; |
+| F775W | (HST) ACS_WFC |f775w_corr_1 | &#10003; | &#10007; | &#10003; | &#10003; | &#10003; |
+| F814W | (HST) ACS_WFC |f814w_corr_1 | &#10003; | &#10003; | &#10003; | &#10003; | &#10007; |
+| F850LP | (HST) ACS_WFC |f850lp_corr_1 | &#10007; | &#10007; | &#10003; | &#10003; | &#10003; |
+| F850LPU | (HST) WFC3_UVIS2 |f850lpu_corr_1 | &#10007; | &#10007; | &#10003; | &#10007; | &#10007; |
+| F1000W | MIRI |f1000w_corr_1 | &#10007; | &#10003; | &#10007;| &#10003; | &#10007; |
+| F1280W | MIRI |f1280w_corr_1 | &#10007; | &#10003; | &#10003; | &#10003; | &#10007; |
+| F1500W | MIRI |f1500w_corr_1 | &#10007; | &#10003; | &#10007;| &#10003; | &#10007; |
+| F1800W | MIRI |f1800w_corr_1 | &#10007; | &#10003; | &#10007;| &#10003; | &#10007; |
+| F2100W | MIRI |f2100w_corr_1 | &#10007; | &#10003; | &#10007;| &#10003; | &#10007; |
 
-
-### Abell
-
-
-f070w_corr_1
-f090w_corr_1
-f090wn_corr_1
-f105w_corr_1
-f115w_corr_1
-f115wn_corr_1
-f125w_corr_1
-f140m_corr_1
-f140mn_corr_1
-f140w_corr_1
-f150w_corr_1
-f162m_corr_1
-f150wn_corr_1
-f158mn_corr_1
-f160w_corr_1
-f182m_corr_1
-f200w_corr_1
-f200wn_corr_1
-f210m_corr_1
-f250m_corr_1
-f277w_corr_1
-f300m_corr_1
-f335m_corr_1
-f356w_corr_1
-f360m_corr_1
-f410m_corr_1
-f430m_corr_1
-f435w_corr_1
-f444w_corr_1
-f460m_corr_1
-f475w_corr_1
-f480m_corr_1
-f606w_corr_1
-f775w_corr_1
-f814w_corr_1
-
-### Ceers
-
-f1000w_corr_1
-f105w_corr_1
-f115w_corr_1
-f125w_corr_1
-f1280w_corr_1
-f140w_corr_1
-f1500w_corr_1
-f150w_corr_1
-f160w_corr_1
-f1800w_corr_1
-f182m_corr_1
-f200w_corr_1
-f2100w_corr_1
-f210m_corr_1
-f277w_corr_1
-f356w_corr_1
-f410m_corr_1
-f435w_corr_1
-f444w_corr_1
-f560w_corr_1
-f606w_corr_1
-f606wu_corr_1
-f770w_corr_1
-f814w_corr_1
-
-### gdn
-f090w_corr_1
-f105w_corr_1
-f110w_corr_1
-f115w_corr_1
-f125w_corr_1
-f1280w_corr_1
-f140w_corr_1
-f150w_corr_1
-f160w_corr_1
-f182m_corr_1
-f200w_corr_1
-f210m_corr_1
-f277w_corr_1
-f335m_corr_1
-f356w_corr_1
-f410m_corr_1
-f435w_corr_1
-f444w_corr_1
-f606w_corr_1
-f770w_corr_1
-f775w_corr_1
-f814w_corr_1
-f850lp_corr_1
-f850lpu_corr_1
-
-
-### gds
-
-
-f090w_corr_1
-f1000w_corr_1
-f105w_corr_1
-f110w_corr_1
-f115w_corr_1
-f115wn_corr_1
-f125w_corr_1
-f1280w_corr_1
-f140w_corr_1
-f1500w_corr_1
-f150w_corr_1
-f162m_corr_1
-f150wn_corr_1
-f160w_corr_1
-f1800w_corr_1
-f182m_corr_1
-f200w_corr_1
-f200wn_corr_1
-f2100w_corr_1
-f210m_corr_1
-f250m_corr_1
-f277w_corr_1
-f300m_corr_1
-f335m_corr_1
-f356w_corr_1
-f410m_corr_1
-f430m_corr_1
-f435w_corr_1
-f444w_corr_1
-f460m_corr_1
-f475w_corr_1
-f480m_corr_1
-f560w_corr_1
-f606w_corr_1
-f770w_corr_1
-f775w_corr_1
-f814w_corr_1
-f850lp_corr_1
-
-
-### ngdeep
-
-f105w_corr_1
-f115w_corr_1
-f125w_corr_1
-f140w_corr_1
-f150w_corr_1
-f160w_corr_1
-f200w_corr_1
-f277w_corr_1
-f350lpu_corr_1
-f356w_corr_1
-f435w_corr_1
-f444w_corr_1
-f475w_corr_1
-f606w_corr_1
-f775w_corr_1
-f814w_corr_1
-f850lp_corr_1
